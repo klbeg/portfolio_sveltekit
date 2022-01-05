@@ -1,4 +1,9 @@
-<script>
+<script lang="ts">
+	let showNav: boolean = false;
+	function flipBar(): void {
+		const btn = document.getElementsByClassName('menu-btn');
+		!showNav ? (showNav = true) : (showNav = false);
+	}
 </script>
 
 <header>
@@ -7,11 +12,9 @@
 		<div class="break" />
 		<p>Full Stack Web Developer</p>
 	</div>
-	<div class="burger-container">
-		<div />
-		<div />
-		<div />
-	</div>
+	<button class={!showNav ? 'menu-btn' : 'menu-btn open'} on:click={flipBar}>
+		<div class="menu-btn__burger" />
+	</button>
 	<div class="break" />
 </header>
 
@@ -30,30 +33,65 @@
 	h1 {
 		font-size: 40px;
 		font-family: 'Montserrat', sans-serif;
+		font-weight: 600;
 	}
 	header p {
 		font-family: 'Catamaran', sans-serif;
 		font-size: 25px;
 		font-weight: 200;
 	}
-
 	.break {
-		border-bottom: 3px solid #ff9e00;
+		border-bottom: 2px solid #ff9e00;
 		width: 281px;
 		height: 0;
 		padding: 3px 0;
 	}
-	.burger-container {
-		height: 36px;
-		width: 46px;
+	.menu-btn {
+		position: relative;
 		display: flex;
-		justify-content: space-between;
-		flex-direction: column;
-		padding: 50px 0;
+		justify-content: center;
+		align-items: center;
+		height: 50px;
+		width: 50px;
+		margin: 50px 0;
+		background-color: transparent;
+		border: none;
 	}
-	.burger-container div {
-		width: 100%;
-		border-bottom: 4px solid #fff;
+	.menu-btn:hover {
+		cursor: pointer;
+	}
+	.menu-btn__burger {
+		width: 50px;
+		height: 3px;
+		background: #fff;
 		border-radius: 5px;
+		transition: all 0.5s ease-in-out;
+	}
+	.menu-btn__burger::before,
+	.menu-btn__burger::after {
+		content: '';
+		position: absolute;
+		width: 50px;
+		height: 3px;
+		background: #fff;
+		border-radius: 5px;
+		transition: all 0.5s ease-in-out;
+	}
+	.menu-btn__burger::before {
+		transform: translateY(-16px) translateX(-25px);
+	}
+	.menu-btn__burger::after {
+		transform: translateY(16px) translateX(-25px);
+	}
+	/* ANIMATION */
+	.menu-btn.open .menu-btn__burger {
+		transform: translateX(-50px);
+		background: transparent;
+	}
+	.menu-btn.open .menu-btn__burger::before {
+		transform: rotate(45deg) translate(16px, -16px);
+	}
+	.menu-btn.open .menu-btn__burger::after {
+		transform: rotate(-45deg) translate(16px, 16px);
 	}
 </style>
