@@ -1,6 +1,7 @@
 <script lang="ts">
+	import NavBar from './NavBar.svelte';
 	let showNav: boolean = false;
-	function flipBar(): void {
+	function toggleNav(): void {
 		const btn = document.getElementsByClassName('menu-btn');
 		!showNav ? (showNav = true) : (showNav = false);
 	}
@@ -12,9 +13,12 @@
 		<div class="break" />
 		<p>Full Stack Web Developer</p>
 	</div>
-	<button class={!showNav ? 'menu-btn' : 'menu-btn open'} on:click={flipBar}>
+	<button class={!showNav ? 'menu-btn' : 'menu-btn open'} on:click={toggleNav}>
 		<div class="menu-btn__burger" />
 	</button>
+	<div>
+		<NavBar {showNav} />
+	</div>
 	<div class="break" />
 </header>
 
@@ -93,5 +97,8 @@
 	}
 	.menu-btn.open .menu-btn__burger::after {
 		transform: rotate(-45deg) translate(16px, 16px);
+	}
+	.hide-nav {
+		display: none;
 	}
 </style>
