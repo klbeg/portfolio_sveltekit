@@ -17,7 +17,7 @@
 		<div class="menu-btn__burger" />
 	</button>
 	<div>
-		<NavBar {showNav} />
+		<NavBar {showNav} {toggleNav} />
 	</div>
 	<div class="break" />
 </header>
@@ -66,7 +66,7 @@
 	}
 	.menu-btn__burger {
 		width: 50px;
-		height: 3px;
+		height: 4px;
 		background: #fff;
 		border-radius: 5px;
 		transition: all 0.5s ease-in-out;
@@ -76,7 +76,7 @@
 		content: '';
 		position: absolute;
 		width: 50px;
-		height: 3px;
+		height: 4px;
 		background: #fff;
 		border-radius: 5px;
 		transition: all 0.5s ease-in-out;
@@ -94,9 +94,11 @@
 	}
 	.menu-btn.open .menu-btn__burger::before {
 		transform: rotate(45deg) translate(16px, -16px);
+		background-color: #ff9e00;
 	}
 	.menu-btn.open .menu-btn__burger::after {
 		transform: rotate(-45deg) translate(16px, 16px);
+		background-color: #ff9e00;
 	}
 	.hide-nav {
 		display: none;

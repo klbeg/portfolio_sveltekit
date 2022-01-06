@@ -1,17 +1,18 @@
 <script lang="ts">
 	export let showNav;
+	export let toggleNav;
 </script>
 
 <nav class={!showNav ? 'hide' : ''}>
 	<ul>
-		<a href="/">
-			<li>Home</li>
+		<a href="/" on:click={toggleNav}>
+			<li>HOME</li>
 		</a>
-		<a href="/about">
-			<li>About</li>
+		<a href="/about" on:click={toggleNav}>
+			<li>ABOUT</li>
 		</a>
-		<a href="/contact">
-			<li>Contact</li>
+		<a href="/contact" on:click={toggleNav}>
+			<li>CONTACT</li>
 		</a>
 	</ul>
 </nav>
@@ -36,7 +37,7 @@
 	ul li {
 		display: flex;
 		justify-content: center;
-		padding: 8px 0;
+		padding: 8px;
 		margin: 2px 0;
 		width: 100px;
 		font-size: 20px;
@@ -51,6 +52,6 @@
 	ul li:hover {
 		cursor: pointer;
 		border: 1px solid #fff;
-		font-weight: 500;
+		background-color: #1d0036;
 	}
 </style>
