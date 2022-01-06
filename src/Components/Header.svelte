@@ -1,5 +1,6 @@
 <script lang="ts">
 	import NavBar from './NavBar.svelte';
+
 	let showNav: boolean = false;
 	function toggleNav(): void {
 		const btn = document.getElementsByClassName('menu-btn');
