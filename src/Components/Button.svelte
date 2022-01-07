@@ -17,7 +17,6 @@
 		color: var(--theme-purple);
 		width: 295px;
 		height: 40px;
-		margin: 25px 0;
 		font-size: 25px;
 		font-weight: bold;
 		border: none;
