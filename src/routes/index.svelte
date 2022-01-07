@@ -1,5 +1,12 @@
-<div class="body-cont flex-center">
-	<div class="content-container flex-center">
+<script>
+	import WorkPreview from '../Components/WorkPreview.svelte';
+	import { colors } from '../globalColors';
+
+	const orange = colors.orange;
+</script>
+
+<div class="body-cont flex-center" style="--theme-orange: {orange}">
+	<div class="content-container">
 		<h2>Hi, I'm Kevin!</h2>
 		<p>
 			JavaScript full stack developer, musician, and witty team player seeking fulltime employment.
@@ -7,36 +14,18 @@
 	</div>
 	<div class="content-container">
 		<h1>My Work:</h1>
+		<!-- import projects array.  Map projects and pass in project info as prop -->
+		<WorkPreview />
 	</div>
 </div>
 
 <style>
-	.flex-center {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		flex-direction: column;
-	}
-	.body-cont {
-		padding: 0 25px;
-	}
-	.content-container {
-		padding: 25px 0;
-		flex-direction: column;
-		justify-content: flex-start;
-		align-items: flex-start;
-		width: 281px;
-	}
 	h1 {
 		font-family: 'Montserrat', sans-serif;
-		color: #ff9e00;
+		color: var(--theme-orange);
 	}
 	h2 {
 		padding-bottom: 50px;
 		font-size: 25px;
-	}
-	p {
-		line-height: 200%;
-		font-size: 20px;
 	}
 </style>
