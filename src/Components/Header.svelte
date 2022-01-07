@@ -1,6 +1,8 @@
 <script lang="ts">
 	import NavBar from './NavBar.svelte';
+	import { colors } from '../globalColors';
 
+	const orange = colors.orange;
 	let showNav: boolean = false;
 	function toggleNav(): void {
 		const btn = document.getElementsByClassName('menu-btn');
@@ -8,7 +10,7 @@
 	}
 </script>
 
-<header>
+<header style="--theme-orange: {orange};">
 	<div class="logo-container">
 		<h1>KEVIN BEGIN</h1>
 		<div class="break" />
@@ -46,8 +48,8 @@
 		font-weight: 200;
 	}
 	.break {
-		border-bottom: 2px solid #ff9e00;
-		width: 281px;
+		border-bottom: 2px solid var(--theme-orange);
+		width: 295px;
 		height: 0;
 		padding: 3px 0;
 	}
@@ -95,11 +97,11 @@
 	}
 	.menu-btn.open .menu-btn__burger::before {
 		transform: rotate(45deg) translate(16px, -16px);
-		background-color: #ff9e00;
+		background-color: var(--theme-orange);
 	}
 	.menu-btn.open .menu-btn__burger::after {
 		transform: rotate(-45deg) translate(16px, 16px);
-		background-color: #ff9e00;
+		background-color: var(--theme-orange);
 	}
 	.hide-nav {
 		display: none;
