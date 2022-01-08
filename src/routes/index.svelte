@@ -5,7 +5,7 @@
 	const orange = colors.orange;
 </script>
 
-<div class="body-cont flex-center" style="--theme-orange: {orange}">
+<div class="flex-center" style="--theme-orange: {orange}">
 	<div class="content-container">
 		<h2>Hi, I'm Kevin!</h2>
 		<p>

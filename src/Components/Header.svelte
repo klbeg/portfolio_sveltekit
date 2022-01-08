@@ -60,7 +60,7 @@
 		align-items: center;
 		height: 50px;
 		width: 50px;
-		margin: 30px 0;
+		margin: 25px 0;
 		background-color: transparent;
 		border: none;
 	}

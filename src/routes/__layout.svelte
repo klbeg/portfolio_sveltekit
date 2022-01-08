@@ -24,9 +24,7 @@
 		line-height: 200%;
 		font-size: 20px;
 	}
-	:global(.body-cont) {
-		padding: 0 25px;
-	}
+
 	:global(.content-container) {
 		padding: 25px 0;
 		flex-direction: column;
