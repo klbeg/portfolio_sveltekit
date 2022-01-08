@@ -21,8 +21,10 @@
 		font-weight: bold;
 		border: none;
 		border-radius: 10px;
+		transition: all 0.5s ease-in-out;
 	}
 	button:hover {
 		cursor: pointer;
+		letter-spacing: 2px;
 	}
 </style>
