@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import WorkPreview from '../Components/WorkPreview.svelte';
 	import { colors } from '../globalColors';
 

@@ -1,10 +1,10 @@
-<script>
+<script lang="ts">
 	export let onClick;
 	export let buttonText;
 	import { colors } from '../globalColors';
 
-	const orange = colors.orange;
-	const purple = colors.purple;
+	const orange: string = colors.orange;
+	const purple: string = colors.purple;
 </script>
 
 <button on:click={onClick} style="--theme-orange: {orange}; --theme-purple: {purple} "

@@ -103,7 +103,4 @@
 		transform: rotate(-45deg) translate(16px, 16px);
 		background-color: var(--theme-orange);
 	}
-	.hide-nav {
-		display: none;
-	}
 </style>
