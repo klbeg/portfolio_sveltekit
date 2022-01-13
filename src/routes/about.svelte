@@ -30,9 +30,9 @@
 	}
 </script>
 
-<div class="flex-center" style="--theme-orange: {orange}">
-	<div class="content-container">
-		<h1 class="heaeder-med-orng">About Me:</h1>
+<div class="flex flex-col items-center" style="--theme-orange: {orange}">
+	<div class="pb-4 pt-2">
+		<h1 class="text-orange text-2xl">About Me:</h1>
 		<div class="content-container">
 			<p>
 				I’m a full stack developer with experience in the MERN stack, among other tools, and over a
@@ -44,11 +44,11 @@
 		</div>
 	</div>
 	<div class="content-container">
-		<h2>Skills</h2>
+		<h2 class="text-orange text-2xl">Skills</h2>
 		<div class="content-container">
-			<ul>
-				{#each skills as skill, i}
-					<li>{skill}</li>
+			<ul class="list-inside list-disc py-4 columns-2">
+				{#each skills as skill}
+					<li class="my-1 text-l">{skill}</li>
 				{/each}
 			</ul>
 		</div>
@@ -57,20 +57,7 @@
 </div>
 
 <style>
-	h1,
-	h2 {
-		font-size: 25px;
-		font-family: 'Montserrat', sans-serif;
-		color: var(--theme-orange);
-	}
-	ul {
-		column-count: 2;
-		margin: 0 -25px 0 25px;
-		padding: 25px 0;
-	}
 	li {
-		margin: 5px 0;
-		font-size: 20px;
 		font-family: 'Catamaran', sans-serif;
 	}
 </style>
