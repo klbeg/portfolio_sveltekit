@@ -19,7 +19,7 @@
 	}
 	:global(p) {
 		line-height: 200%;
-		font-size: 20px;
+		font-size: 18px;
 	}
 	:global(.break) {
 		border-bottom: 2px solid var(--theme-orange);
