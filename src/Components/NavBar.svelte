@@ -19,7 +19,7 @@
 
 <style>
 	nav {
-		height: 150px;
+		height: 170px;
 		overflow: hidden;
 		transition: all 0.75s ease-in-out;
 	}
