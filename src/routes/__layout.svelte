@@ -1,4 +1,5 @@
 <script lang="ts">
+	import '../app.css';
 	import Header from '../Components/Header.svelte';
 	import { colors } from '../globalColors';
 
@@ -16,10 +17,6 @@
 </div>
 
 <style>
-	@tailwind base;
-	@tailwind components;
-	@tailwind utilities;
-
 	.app-container {
 		background-color: var(--theme-purple);
 		color: var(--theme-white);
