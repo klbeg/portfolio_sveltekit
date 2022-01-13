@@ -18,7 +18,7 @@
 		the client side. The backend for the site was built using Express, MongoDB, Node.js, Mongoose,
 		Morgan, Passport, and Json Web Token.
 	</p>
-	<div class="pb-25">
+	<div class="py-4">
 		<Button buttonText="View More" onClick={handleClick} />
 	</div>
 </div>
