@@ -9,7 +9,7 @@
 </script>
 
 <div
-	class="app-container"
+	class="app-container bg-purple text-white min-h-screen"
 	style="--theme-purple: {purple}; --theme-white: {white}; --theme-orange: {orange};"
 >
 	<Header />
@@ -18,12 +18,7 @@
 
 <style>
 	.app-container {
-		background-color: var(--theme-purple);
-		color: var(--theme-white);
-		box-sizing: border-box;
 		font-family: 'Montserrat', sans-serif;
-		width: 100vw;
-		min-height: 100vh;
 	}
 	:global(p) {
 		line-height: 200%;
