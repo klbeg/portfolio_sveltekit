@@ -8,16 +8,13 @@
 	const white: string = colors.white;
 </script>
 
-<div
-	class="app-container bg-purple text-white min-h-screen"
-	style="--theme-purple: {purple}; --theme-white: {white}; --theme-orange: {orange};"
->
+<div class="bg-purple text-white min-h-screen" style="--theme-orange: {orange};">
 	<Header />
 	<slot />
 </div>
 
 <style>
-	.app-container {
+	* {
 		font-family: 'Montserrat', sans-serif;
 	}
 	:global(p) {
@@ -32,18 +29,7 @@
 	:global(.content-container) {
 		padding: 25px 0;
 		flex-direction: column;
-		justify-content: center;
 		align-items: flex-start;
 		width: 295px;
-	}
-	:global(.flex-center) {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		flex-direction: column;
-	}
-	:global(.header-med-orng) {
-		font-family: 'Montserrat', sans-serif;
-		color: var(--theme-orange);
 	}
 </style>
