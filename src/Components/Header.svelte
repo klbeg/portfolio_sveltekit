@@ -9,11 +9,11 @@
 	}
 </script>
 
-<header>
-	<div class="logo-container">
+<header class="py-12 flex flex-col items-center">
+	<div class="flex flex-col items-center">
 		<h1>KEVIN BEGIN</h1>
 		<div class="break" />
-		<p>Full Stack Web Developer</p>
+		<p class="font-extralight">Full Stack Web Developer</p>
 	</div>
 	<NavToggle {showNav} {toggleNav} />
 	<NavBar {showNav} {toggleNav} />
@@ -21,31 +21,12 @@
 </header>
 
 <style>
-	header {
-		padding: 50px 0;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
-	.logo-container {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
 	h1 {
 		font-size: 40px;
 		font-family: 'Montserrat', sans-serif;
-		font-weight: 600;
 	}
 	header p {
 		font-family: 'Catamaran', sans-serif;
 		font-size: 25px;
-		font-weight: 200;
-	}
-	.break {
-		border-bottom: 2px solid var(--theme-orange);
-		width: 295px;
-		height: 0;
-		padding: 3px 0;
 	}
 </style>

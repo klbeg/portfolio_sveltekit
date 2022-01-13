@@ -29,6 +29,11 @@
 		line-height: 200%;
 		font-size: 20px;
 	}
+	:global(.break) {
+		border-bottom: 2px solid var(--theme-orange);
+		width: 295px;
+		padding: 3px 0;
+	}
 	:global(.content-container) {
 		padding: 25px 0;
 		flex-direction: column;
