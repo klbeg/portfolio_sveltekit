@@ -9,6 +9,7 @@
 
 <div class="content-container">
 	<img
+		class="my-5 w-52 rounded-2xl"
 		src="https://klbeg.github.io/portfolio-website/img/MovieCraze-preview.jpg"
 		alt="Movie Craze logo. Orange text on a dark blue background."
 	/>
@@ -25,9 +26,6 @@
 
 <style>
 	img {
-		width: 200px;
-		margin: 25px 0;
-		border-radius: 20px;
 		box-shadow: 0 3px 3px rgba(255, 255, 255, 0.295);
 	}
 </style>
