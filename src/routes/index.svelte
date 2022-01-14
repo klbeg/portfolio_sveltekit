@@ -13,5 +13,6 @@
 		<h1 class="text-orange text-2xl">My Work:</h1>
 		<!-- import projects array.  Map projects and pass in project info as prop -->
 		<WorkPreview />
+		<WorkPreview />
 	</div>
 </div>
