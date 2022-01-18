@@ -4,25 +4,25 @@
 
 	const orange: string = colors.orange;
 	const skills: string[] = [
-		'JavaScript',
-		'TypeScript',
-		'CSS',
-		'AWS',
-		'HTML',
-		'Node.js',
-		'Svelte',
 		'Angular',
-		'React',
-		'Redux',
+		'AWS',
 		'Axios',
 		'Bootstrap',
-		'Puppeteer',
+		'CSS',
 		'Enzyme',
-		'Test Driven Development',
-		'Parcel',
-		'Mongoose',
+		'GitHub',
+		'HTML',
+		'JavaScript',
+		'Jest',
+		'TypeScript',
+		'Node.js',
 		'MongoDb',
-		'GitHub'
+		'Mongoose',
+		'Parcel',
+		'React',
+		'Redux',
+		'Svelte',
+		'Tailwind'
 	];
 
 	function downloadResume() {
@@ -30,7 +30,7 @@
 	}
 </script>
 
-<div class="flex flex-col items-center" style="--theme-orange: {orange}">
+<div class="flex flex-col items-center mt-4">
 	<div class="pb-4 pt-2">
 		<h1 class="text-orange text-2xl">About Me:</h1>
 		<div class="content-container">
@@ -46,9 +46,9 @@
 	<div class="content-container">
 		<h2 class="text-orange text-2xl">Skills</h2>
 		<div class="content-container">
-			<ul class="list-inside list-disc py-4 columns-2">
+			<ul class="ml-6 my-4 list-disc columns-2">
 				{#each skills as skill}
-					<li class="my-1 text-l">{skill}</li>
+					<li class="text-l">{skill}</li>
 				{/each}
 			</ul>
 		</div>
@@ -57,6 +57,9 @@
 </div>
 
 <style>
+	ul {
+		margin-left: 20px;
+	}
 	li {
 		font-family: 'Catamaran', sans-serif;
 	}
