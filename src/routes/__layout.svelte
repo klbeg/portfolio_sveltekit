@@ -4,13 +4,14 @@
 	import { colors } from '../globalColors';
 
 	const purple: string = colors.purple;
+	const darkPurple: string = colors.darkPurple;
 	const orange: string = colors.orange;
 	const white: string = colors.white;
 </script>
 
 <div
 	class="bg-purple text-white min-h-screen"
-	style="--theme-orange: {orange}; --theme-purple: {purple};"
+	style="--theme-orange: {orange}; --theme-purple: {purple}; --theme-dark-purple: {darkPurple} --theme-white: {white}"
 >
 	<Header />
 	<slot />

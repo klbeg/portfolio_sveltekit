@@ -10,10 +10,10 @@
 <style>
 	button {
 		width: 281px;
-		transition: all 0.5s ease-in-out;
+		transition: all 0.2s ease-in-out;
 	}
 	button:hover {
 		cursor: pointer;
-		letter-spacing: 2px;
+		box-shadow: 0px 0px 6px 5px rgba(136, 110, 58, 0.842);
 	}
 </style>
