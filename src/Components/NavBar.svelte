@@ -13,7 +13,7 @@
 	<ul class="flex flex-col">
 		{#each links as link}
 			<a class="uppercase text-xl" href={link[1]} on:click={toggleNav}>
-				<li class="py-2 flex justify-center my-0.5 w-40 text-xl">{link[0]}</li>
+				<li class="py-2 flex justify-center my-0.5 w-36 text-xl">{link[0]}</li>
 			</a>
 		{/each}
 	</ul>

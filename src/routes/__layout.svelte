@@ -8,7 +8,10 @@
 	const white: string = colors.white;
 </script>
 
-<div class="bg-purple text-white min-h-screen" style="--theme-orange: {orange};">
+<div
+	class="bg-purple text-white min-h-screen"
+	style="--theme-orange: {orange}; --theme-purple: {purple};"
+>
 	<Header />
 	<slot />
 </div>
@@ -23,13 +26,13 @@
 	}
 	:global(.break) {
 		border-bottom: 2px solid var(--theme-orange);
-		width: 295px;
+		width: 281px;
 		padding: 3px 0;
 	}
 	:global(.content-container) {
 		padding: 25px 0;
 		flex-direction: column;
 		align-items: flex-start;
-		width: 295px;
+		width: 281px;
 	}
 </style>
