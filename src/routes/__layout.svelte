@@ -1,6 +1,7 @@
 <script lang="ts">
 	import '../app.css';
 	import Header from '../Components/Header.svelte';
+	import Footer from '../Components/Footer.svelte';
 	import { colors } from '../globalColors';
 
 	const purple: string = colors.purple;
@@ -15,6 +16,7 @@
 >
 	<Header />
 	<slot />
+	<Footer />
 </div>
 
 <style>
