@@ -1,26 +1,15 @@
 <script lang="ts">
 	export let onClick;
 	export let buttonText;
-	import { colors } from '../globalColors';
-
-	const orange: string = colors.orange;
-	const purple: string = colors.purple;
 </script>
 
-<button on:click={onClick} style="--theme-orange: {orange}; --theme-purple: {purple} "
+<button class="bg-orange text-purple h-10 font-bold text-2xl rounded-md" on:click={onClick}
 	>{buttonText}</button
 >
 
 <style>
 	button {
-		background-color: var(--theme-orange);
-		color: var(--theme-purple);
-		width: 295px;
-		height: 40px;
-		font-size: 25px;
-		font-weight: bold;
-		border: none;
-		border-radius: 10px;
+		width: 281px;
 		transition: all 0.5s ease-in-out;
 	}
 	button:hover {
