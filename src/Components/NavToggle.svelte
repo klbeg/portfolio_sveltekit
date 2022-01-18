@@ -1,9 +1,21 @@
-<script>
+<script lang="ts">
 	export let showNav;
 	export let toggleNav;
+
+	let hasBeenClicked: boolean = false;
+
+	function handleNavClick(): void {
+		if (hasBeenClicked) return;
+
+		hasBeenClicked = true;
+		toggleNav();
+		setTimeout(() => {
+			hasBeenClicked = false;
+		}, 500);
+	}
 </script>
 
-<button class={!showNav ? 'menu-btn' : 'menu-btn open'} on:click={toggleNav}>
+<button class={!showNav ? 'menu-btn' : 'menu-btn open'} on:click={handleNavClick}>
 	<div class="menu-btn__burger" />
 </button>
 
