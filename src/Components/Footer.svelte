@@ -1,6 +1,6 @@
 <script>
-	let gitIcon = 'src/images/github.png';
-	let linkedinIcon = 'src/images/linkedin.png';
+	let gitIcon = 'src/data/images/github.png';
+	let linkedinIcon = 'src/data/images/linkedin.png';
 </script>
 
 <footer class="py-12 flex flex-col items-center">
