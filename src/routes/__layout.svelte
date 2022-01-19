@@ -12,7 +12,7 @@
 
 <div
 	class="bg-purple text-white min-h-screen"
-	style="--theme-orange: {orange}; --theme-purple: {purple}; --theme-dark-purple: {darkPurple} --theme-white: {white}"
+	style="--theme-orange: {orange}; --theme-purple: {purple}; --theme-dark-purple: {darkPurple}; --theme-white: {white};"
 >
 	<Header />
 	<slot />
@@ -26,6 +26,12 @@
 	:global(p) {
 		line-height: 200%;
 		font-size: 18px;
+	}
+	:global(.catamaran) {
+		font-family: 'Catamaran', sans-serif;
+	}
+	:global(.montserrat) {
+		font-family: 'Montserrat', sans-serif;
 	}
 	:global(.break) {
 		border-bottom: 2px solid var(--theme-orange);
