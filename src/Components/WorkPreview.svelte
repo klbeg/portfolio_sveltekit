@@ -1,10 +1,5 @@
 <script lang="ts">
 	import Button from './Button.svelte';
-
-	function handleClick() {
-		//  replace with link to whatever project
-		console.log('button working');
-	}
 </script>
 
 <div class="content-container">
@@ -20,7 +15,7 @@
 		Morgan, Passport, and Json Web Token.
 	</p>
 	<div class="pt-4">
-		<Button buttonText="View More" onClick={handleClick} />
+		<Button buttonText="View More" href="movieCraze" />
 	</div>
 </div>
 
