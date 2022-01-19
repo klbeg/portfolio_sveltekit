@@ -1,3 +1,8 @@
+<script lang="ts">
+	import Button from '../Components/Button.svelte';
+	const href: string = 'https://github.com/klbeg/myFlix-Angular-client';
+</script>
+
 <div class="content-container">
 	<img
 		class="my-5 w-52 rounded-2xl"
@@ -75,6 +80,9 @@
 		it all. This project more than any other has gotten me really excited to get a job and working
 		with teams on big real world applications.
 	</p>
+	<div class="pt-4">
+		<Button buttonText="View Repository" target="__blank" {href} />
+	</div>
 </div>
 
 <style>

@@ -1,9 +1,10 @@
 <script lang="ts">
 	export let href;
 	export let buttonText;
+	export let target;
 </script>
 
-<a {href}>
+<a {href} {target}>
 	<button class="bg-orange text-purple h-10 font-bold text-2xl rounded-md">
 		{buttonText}
 	</button>

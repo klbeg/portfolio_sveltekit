@@ -15,7 +15,7 @@
 		Morgan, Passport, and Json Web Token.
 	</p>
 	<div class="pt-4">
-		<Button buttonText="View More" href="movieCraze" />
+		<Button buttonText="View More" href="movieCraze" target="" />
 	</div>
 </div>
 
