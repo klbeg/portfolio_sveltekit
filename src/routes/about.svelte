@@ -1,9 +1,9 @@
-<script lang="ts">
+<script context="module">
 	import { colors } from '../globalColors';
 	import Button from '../Components/Button.svelte';
 
-	const orange: string = colors.orange;
-	const skills: string[] = [
+	const orange = colors.orange;
+	const skills = [
 		'Angular',
 		'AWS',
 		'Axios',
@@ -25,7 +25,7 @@
 		'Tailwind'
 	];
 
-	function downloadResume() {
+	function handleDownload() {
 		console.log('Resume Downloaded');
 	}
 </script>
@@ -52,7 +52,7 @@
 				{/each}
 			</ul>
 		</div>
-		<Button buttonText="Download Resume" onClick={downloadResume} />
+		<Button buttonText="Hello Resume" clickHandler={handleDownload} />
 	</div>
 </div>
 

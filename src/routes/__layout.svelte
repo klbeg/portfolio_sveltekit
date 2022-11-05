@@ -35,13 +35,20 @@
 	}
 	:global(.break) {
 		border-bottom: 2px solid var(--theme-orange);
-		width: 281px;
+		width: 18rem;
 		padding: 3px 0;
 	}
 	:global(.content-container) {
 		padding: 25px 0;
 		flex-direction: column;
 		align-items: flex-start;
-		width: 281px;
+		width: 18rem;
+	}
+	/* Responsive Design */
+	@media (min-width: 768px) {
+		:global(.content-container),
+		:global(.break) {
+			width: 42rem;
+		}
 	}
 </style>

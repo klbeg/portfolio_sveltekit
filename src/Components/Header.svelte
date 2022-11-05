@@ -9,7 +9,7 @@
 	}
 </script>
 
-<header class="py-8 flex flex-col items-center">
+<header class="py-8 flex flex-col items-center md:hidden">
 	<div class="flex flex-col items-center">
 		<h1>KEVIN BEGIN</h1>
 		<div class="break" />

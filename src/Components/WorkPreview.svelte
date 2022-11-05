@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Button from './Button.svelte';
+	import Link from './Link.svelte';
 </script>
 
 <div class="content-container">
@@ -15,7 +15,7 @@
 		Morgan, Passport, and Json Web Token.
 	</p>
 	<div class="pt-4">
-		<Button buttonText="View More" href="movieCraze" target="" />
+		<Link buttonText="View More" href="movieCraze" target="" />
 	</div>
 </div>
 
