@@ -1,5 +1,5 @@
-<script>
-	import Button from '../Components/Button.svelte';
+<script lang="ts">
+	import Link from '../Components/Link.svelte';
 </script>
 
 <div class="flex flex-col items-center">
@@ -18,9 +18,9 @@
 				name="message"
 				id="message"
 				cols="30"
-				rows="6q"
+				rows="6"
 			/>
-			<Button buttonText="Submit" />
+			<Link buttonText="Submit" href="" target="" />
 		</div>
 	</form>
 </div>

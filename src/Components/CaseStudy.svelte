@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Button from '../Components/Button.svelte';
+	import Link from './Link.svelte';
 	const href: string = 'https://github.com/klbeg/myFlix-Angular-client';
 </script>
 
@@ -81,7 +81,7 @@
 		with teams on big real world applications.
 	</p>
 	<div class="pt-4">
-		<Button buttonText="View Repository" target="__blank" {href} />
+		<Link buttonText="View Repository" target="__blank" {href} />
 	</div>
 </div>
 
