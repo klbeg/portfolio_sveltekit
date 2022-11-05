@@ -21,9 +21,9 @@
 
 <style>
 	nav {
-		height: 170px;
+		height: 139px;
 		overflow: hidden;
-		transition: all 0.75s ease-in-out;
+		transition: all 0.5s ease-in-out;
 	}
 	.hide {
 		height: 0;
