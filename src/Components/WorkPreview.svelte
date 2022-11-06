@@ -13,7 +13,7 @@
 	<h1 class="text-orange text-2xl py-6 uppercase">{project.title}</h1>
 	<p class="pb-6">{project.preview}</p>
 	<div class="pt-4">
-		<Link buttonText="View More" href={project.url} />
+		<Link buttonText="View More" href="/caseStudy[slug]" />
 	</div>
 </div>
 

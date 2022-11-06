@@ -1,6 +1,6 @@
 <script lang="ts">
-	import Link from './Link.svelte';
-	const href: string = 'https://github.com/klbeg/myFlix-Angular-client';
+	import Link from "./Link.svelte"
+	const href: string = "https://github.com/klbeg/myFlix-Angular-client"
 </script>
 
 <div class="content-container">

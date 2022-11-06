@@ -12,7 +12,7 @@
 		src="https://klbeg.github.io/portfolio-website/img/MovieCraze-preview.jpg"
 		alt="Movie Craze logo. Orange text on a dark blue background."
 	/>
-	<h1 class="text-orange text-2xl py-6 uppercase">movie craze</h1>
+	<h1 class="text-orange text-2xl py-6 uppercase">{project.title}</h1>
 	<p class="pb-6 font-light">
 		MovieCraze-Angular is an Angular app that uses HTML, SCSS, Typescript, Angular Router, and
 		Angular Material. The backend is my Movie-API that was utilized in the React version of
