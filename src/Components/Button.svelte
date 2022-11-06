@@ -1,10 +1,10 @@
 <script lang="ts">
-	export let buttonText;
+	export let buttonText: string;
 	export let clickHandler;
 </script>
 
 <button
-	on:click={clickHandler || console.log('no handler')}
+	on:click={clickHandler || console.log("Button has no handler")}
 	class="bg-orange text-purple h-10 font-bold text-2xl rounded-md"
 >
 	{buttonText}

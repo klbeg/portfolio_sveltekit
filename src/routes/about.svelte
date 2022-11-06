@@ -1,32 +1,32 @@
 <script context="module">
-	import { colors } from '../globalColors';
-	import Button from '../Components/Button.svelte';
+	import { colors } from "../globalColors";
+	import Button from "../Components/Button.svelte";
 
 	const orange = colors.orange;
 	const skills = [
-		'Angular',
-		'AWS',
-		'Axios',
-		'Bootstrap',
-		'CSS',
-		'Enzyme',
-		'GitHub',
-		'HTML',
-		'JavaScript',
-		'Jest',
-		'TypeScript',
-		'Node.js',
-		'MongoDb',
-		'Mongoose',
-		'Parcel',
-		'React',
-		'Redux',
-		'Svelte',
-		'Tailwind'
+		"Angular",
+		"AWS",
+		"Axios",
+		"Bootstrap",
+		"CSS",
+		"Enzyme",
+		"GitHub",
+		"HTML",
+		"JavaScript",
+		"Jest",
+		"TypeScript",
+		"Node.js",
+		"MongoDb",
+		"Mongoose",
+		"Parcel",
+		"React",
+		"Redux",
+		"Svelte",
+		"Tailwind"
 	];
 
 	function handleDownload() {
-		console.log('Resume Downloaded');
+		console.log("Resume Downloaded");
 	}
 </script>
 
@@ -61,6 +61,6 @@
 		margin-left: 20px;
 	}
 	li {
-		font-family: 'Catamaran', sans-serif;
+		font-family: "Catamaran", sans-serif;
 	}
 </style>
