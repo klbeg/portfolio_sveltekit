@@ -4,6 +4,7 @@ type Process = {
 };
 
 export type CaseStudy = {
+	url: string;
 	title: string;
 	preview: string;
 	summary: string;

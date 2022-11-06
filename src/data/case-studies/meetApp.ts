@@ -1,6 +1,7 @@
 import type CaseStudy from "src/types/CaseStudy";
 
 const meetApp: CaseStudy = {
+	url: "meetApp",
 	title: "Meet App",
 	preview:
 		"Meet is a serverless React app that allows users to see events, event details and filter by city.",

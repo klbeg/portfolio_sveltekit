@@ -1,6 +1,7 @@
 import type CaseStudy from "src/types/CaseStudy";
 
 const movieCrazeAngular: CaseStudy = {
+	url: "movieCrazeAngular",
 	title: "Movie Craze: Angular",
 	preview:
 		"An Angular version of Movie Craze, with the same user functionality, but a new framework.",
