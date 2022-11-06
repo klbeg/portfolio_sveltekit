@@ -2,6 +2,8 @@ import type CaseStudy from "src/types/CaseStudy";
 
 const meetApp: CaseStudy = {
 	title: "Meet App",
+	preview:
+		"Meet is a serverless React app that allows users to see events, event details and filter by city.",
 	summary:
 		"Meet is a serverless Progressive Web Application using AWS Lambda and Jest for testing, along with a host of other tools. The app utilizes Google Calendar API to populate a list of events that the user can sort by city and dictate the amount of events to show.",
 	logo: "",

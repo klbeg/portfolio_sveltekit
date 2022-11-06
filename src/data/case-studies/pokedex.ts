@@ -2,6 +2,7 @@ import type CaseStudy from "src/types/CaseStudy";
 
 const pokedex: CaseStudy = {
 	title: "Pokedex",
+	preview: "Pokedex is a Javascript app that utilizes an external API.",
 	summary:
 		"Pokedex is a small web applicationo that leverages HTML, CSS, and Javascript. It renders data collected from an external API and allows users to learn more about their favorite Pokémon.",
 	logo: "",

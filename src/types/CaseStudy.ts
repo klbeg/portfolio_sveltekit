@@ -5,6 +5,7 @@ type Process = {
 
 export type CaseStudy = {
 	title: string;
+	preview: string;
 	summary: string;
 	logo: string;
 	purpose: string;

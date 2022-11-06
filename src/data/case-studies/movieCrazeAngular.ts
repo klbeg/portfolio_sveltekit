@@ -2,6 +2,8 @@ import type CaseStudy from "src/types/CaseStudy";
 
 const movieCrazeAngular: CaseStudy = {
 	title: "Movie Craze: Angular",
+	preview:
+		"An Angular version of Movie Craze, with the same user functionality, but a new framework.",
 	summary:
 		"MovieCraze-Angular is an Angular app that uses HTML, SCSS, Typescript, Angular Router, and Angular Material. The backend is my Movie-API that was utilized in the React version of MovieCraze.",
 	logo: "",

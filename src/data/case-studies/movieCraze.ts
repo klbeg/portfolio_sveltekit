@@ -2,6 +2,8 @@ import type CaseStudy from "src/types/CaseStudy";
 
 const movieCraze: CaseStudy = {
 	title: "Movie Craze",
+	preview:
+		"Movie Craze is a full stack React app that allows users to see a full list of moview, movie details, and edit user info.",
 	summary: `MovieCraze-Angular is an Angular app that uses HTML, SCSS, Typescript, Angular Router, and Angular Material. The backend is my Movie-API that was utilized in the React version of MovieCraze.`,
 	logo: "https://klbeg.github.io/portfolio-website/img/MovieCraze-preview.jpg",
 	purpose: `The purpose of MovieCraze-Angular is to expand my knowledge of frameworks to include Angular, as well as learn Typescript. In addition, a Kaban board was used to keep the project on track and easier to manage.`,
