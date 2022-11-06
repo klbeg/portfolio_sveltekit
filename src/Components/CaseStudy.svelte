@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Link from "./Link.svelte"
+	import Link from "../Components/Link.svelte"
 	const href: string = "https://github.com/klbeg/myFlix-Angular-client"
 </script>
 
