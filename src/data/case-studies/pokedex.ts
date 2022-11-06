@@ -1,7 +1,7 @@
 import type CaseStudy from "src/types/CaseStudy";
 
 const pokedex: CaseStudy = {
-	url: "pokedex",
+	url: "/pokedex",
 	title: "Pokedex",
 	preview: "Pokedex is a Javascript app that utilizes an external API.",
 	summary:
