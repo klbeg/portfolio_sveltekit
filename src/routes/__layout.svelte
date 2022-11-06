@@ -1,13 +1,13 @@
 <script lang="ts">
-	import '../app.css';
-	import Header from '../Components/Header.svelte';
-	import Footer from '../Components/Footer.svelte';
-	import { colors } from '../globalColors';
+	import "../app.css"
+	import Header from "../Components/Header.svelte"
+	import Footer from "../Components/Footer.svelte"
+	import { colors } from "../globalColors"
 
-	const purple: string = colors.purple;
-	const darkPurple: string = colors.darkPurple;
-	const orange: string = colors.orange;
-	const white: string = colors.white;
+	const purple: string = colors.purple
+	const darkPurple: string = colors.darkPurple
+	const orange: string = colors.orange
+	const white: string = colors.white
 </script>
 
 <div
@@ -21,17 +21,17 @@
 
 <style>
 	* {
-		font-family: 'Montserrat', sans-serif;
+		font-family: "Montserrat", sans-serif;
 	}
 	:global(p) {
 		line-height: 200%;
 		font-size: 18px;
 	}
 	:global(.catamaran) {
-		font-family: 'Catamaran', sans-serif;
+		font-family: "Catamaran", sans-serif;
 	}
 	:global(.montserrat) {
-		font-family: 'Montserrat', sans-serif;
+		font-family: "Montserrat", sans-serif;
 	}
 	:global(.break) {
 		border-bottom: 2px solid var(--theme-orange);

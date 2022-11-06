@@ -1,4 +1,4 @@
-import type CaseStudy from "src/types/CaseStudy";
+import type CaseStudy from "src/types/CaseStudy"
 
 const movieCrazeAngular: CaseStudy = {
 	url: "/movieCrazeAngular",
@@ -36,6 +36,6 @@ const movieCrazeAngular: CaseStudy = {
 			]
 		}
 	]
-};
+}
 
-export default movieCrazeAngular;
+export default movieCrazeAngular

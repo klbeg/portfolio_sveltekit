@@ -1,9 +1,9 @@
 <script lang="ts">
-	import WorkPreview from "../Components/WorkPreview.svelte";
-	import Introduction from "../Components/Introduction.svelte";
-	import { meetApp, movieCraze, movieCrazeAngular, pokedex } from "../data/case-studies/index";
+	import WorkPreview from "../Components/WorkPreview.svelte"
+	import Introduction from "../Components/Introduction.svelte"
+	import { meetApp, movieCraze, movieCrazeAngular, pokedex } from "../data/case-studies/index"
 
-	const projects = [meetApp, movieCraze, movieCrazeAngular, pokedex];
+	const projects = [meetApp, movieCraze, movieCrazeAngular, pokedex]
 </script>
 
 <div class="flex flex-col items-center">

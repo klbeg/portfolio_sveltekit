@@ -1,5 +1,5 @@
 <script lang="ts">
-	import CaseStudy from '../Components/CaseStudy.svelte';
+	import CaseStudy from "../Components/CaseStudy.svelte"
 </script>
 
 <div class="flex justify-center">

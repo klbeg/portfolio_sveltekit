@@ -1,7 +1,7 @@
 <script lang="ts">
-	import type CaseStudy from "../types/CaseStudy";
-	import Link from "./Link.svelte";
-	export let project: CaseStudy;
+	import type CaseStudy from "../types/CaseStudy"
+	import Link from "./Link.svelte"
+	export let project: CaseStudy
 </script>
 
 <div class="content-container">

@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Link from "../Components/Link.svelte";
+	import Link from "../Components/Link.svelte"
 </script>
 
 <div class="flex flex-col items-center">

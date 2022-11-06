@@ -1,15 +1,15 @@
 <script lang="ts">
-	export let showNav;
-	export let toggleNav;
+	export let showNav
+	export let toggleNav
 
 	const links: string[][] = [
-		['home', '/'],
-		['about', '/about'],
-		['contact', '/contact']
-	];
+		["home", "/"],
+		["about", "/about"],
+		["contact", "/contact"]
+	]
 </script>
 
-<nav class={!showNav && 'hide'}>
+<nav class={!showNav && "hide"}>
 	<ul class="flex flex-col">
 		{#each links as link}
 			<a class="uppercase text-xl" href={link[1]} on:click={toggleNav}>

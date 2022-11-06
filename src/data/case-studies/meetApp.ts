@@ -1,4 +1,4 @@
-import type CaseStudy from "src/types/CaseStudy";
+import type CaseStudy from "src/types/CaseStudy"
 
 const meetApp: CaseStudy = {
 	url: "/meetApp",
@@ -34,6 +34,6 @@ const meetApp: CaseStudy = {
 			]
 		}
 	]
-};
+}
 
-export default meetApp;
+export default meetApp

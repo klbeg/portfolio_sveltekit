@@ -1,8 +1,8 @@
 <script context="module">
-	import { colors } from "../globalColors";
-	import Button from "../Components/Button.svelte";
+	import { colors } from "../globalColors"
+	import Button from "../Components/Button.svelte"
 
-	const orange = colors.orange;
+	const orange = colors.orange
 	const skills = [
 		"Angular",
 		"AWS",
@@ -23,10 +23,10 @@
 		"Redux",
 		"Svelte",
 		"Tailwind"
-	];
+	]
 
 	function handleDownload() {
-		console.log("Resume Downloaded");
+		console.log("Resume Downloaded")
 	}
 </script>
 

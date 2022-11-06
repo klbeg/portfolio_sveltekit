@@ -1,4 +1,4 @@
-import type CaseStudy from "src/types/CaseStudy";
+import type CaseStudy from "src/types/CaseStudy"
 
 const pokedex: CaseStudy = {
 	url: "/pokedex",
@@ -32,6 +32,6 @@ const pokedex: CaseStudy = {
 			]
 		}
 	]
-};
+}
 
-export default pokedex;
+export default pokedex

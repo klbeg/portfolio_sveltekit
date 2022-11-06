@@ -1,6 +1,6 @@
 <script lang="ts">
-	export let buttonText: string;
-	export let clickHandler;
+	export let buttonText: string
+	export let clickHandler
 </script>
 
 <button
