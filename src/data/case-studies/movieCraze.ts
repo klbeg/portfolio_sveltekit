@@ -1,7 +1,7 @@
 import type CaseStudy from "src/types/CaseStudy"
 
 const movieCraze: CaseStudy = {
-	url: "/movieCraze",
+	url: "movieCraze",
 	title: "Movie Craze",
 	preview:
 		"Movie Craze is a full stack React app that allows users to see a full list of moview, movie details, and edit user info.",
