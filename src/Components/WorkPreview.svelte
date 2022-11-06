@@ -1,5 +1,7 @@
 <script lang="ts">
-	import Link from './Link.svelte';
+	import type CaseStudy from "../types/CaseStudy";
+	import Link from "./Link.svelte";
+	export let project: CaseStudy;
 </script>
 
 <div class="content-container">
@@ -8,14 +10,10 @@
 		src="https://klbeg.github.io/portfolio-website/img/MovieCraze-preview.jpg"
 		alt="Movie Craze logo. Orange text on a dark blue background."
 	/>
-	<h1 class="text-orange text-2xl py-6 uppercase">movie craze</h1>
-	<p class="pb-6">
-		A full-stack React app that uses Axios, Redux, Parcel, Node.js, Bootstrap, and React Router on
-		the client side. The backend for the site was built using Express, MongoDB, Node.js, Mongoose,
-		Morgan, Passport, and Json Web Token.
-	</p>
+	<h1 class="text-orange text-2xl py-6 uppercase">{project.title}</h1>
+	<p class="pb-6">{project.preview}</p>
 	<div class="pt-4">
-		<Link buttonText="View More" href="movieCraze" target="" />
+		<Link buttonText="View More" href={project.url} />
 	</div>
 </div>
 
