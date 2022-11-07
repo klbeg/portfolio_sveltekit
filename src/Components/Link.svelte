@@ -1,7 +1,7 @@
 <script lang="ts">
 	export let href
 	export let buttonText
-	export let target: string = "__blank"
+	export let target: string = ""
 </script>
 
 <a {href} {target}>
