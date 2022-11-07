@@ -6,13 +6,13 @@
 	const projects = [meetApp, movieCraze, movieCrazeAngular, pokedex]
 </script>
 
-<div class="flex flex-col items-center">
-	<Introduction />
-	<div class="content-container">
-		<h1 class="text-orange text-2xl md:text-white">My Work:</h1>
+<!-- <div class="flex flex-col items-center"> -->
+<Introduction />
+<div class="content-container">
+	<h1 class="text-orange text-2xl md:text-white">My Work:</h1>
 
-		{#each projects as project}
-			<WorkPreview {project} />
-		{/each}
-	</div>
+	{#each projects as project}
+		<WorkPreview {project} />
+	{/each}
 </div>
+<!-- </div> -->

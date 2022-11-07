@@ -15,7 +15,9 @@
 	style="--theme-orange: {orange}; --theme-purple: {purple}; --theme-dark-purple: {darkPurple}; --theme-white: {white};"
 >
 	<Header />
-	<slot />
+	<div class="flex flex-col items-center">
+		<slot />
+	</div>
 	<Footer />
 </div>
 
