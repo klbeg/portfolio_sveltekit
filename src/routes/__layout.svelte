@@ -47,7 +47,14 @@
 		width: 18rem;
 	}
 	/* Responsive Design */
-	@media (min-width: 768px) {
+	@media (min-width: 516px) {
+		:global(.content-container),
+		:global(.break) {
+			width: 70vw;
+		}
+	}
+
+	@media (min-width: 686px) {
 		:global(.content-container),
 		:global(.break) {
 			width: 42rem;
