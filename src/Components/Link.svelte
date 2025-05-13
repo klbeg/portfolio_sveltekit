@@ -12,7 +12,7 @@
 
 <style>
 	button {
-		width: 281px;
+		width: 216px;
 		transition: all 0.2s ease-in-out;
 		border: 1px solid transparent;
 	}
