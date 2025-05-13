@@ -1,6 +1,8 @@
 <script context="module">
 	import { colors } from "../globalColors"
 	import Button from "../Components/Button.svelte"
+	import { base } from "$app/paths"
+	let Resume = `${base}src/data/pdfs/resume.pdf`
 
 	const orange = colors.orange
 	const skills = [
@@ -52,7 +54,10 @@
 			{/each}
 		</ul>
 	</div>
-	<Button buttonText="Hello Resume" clickHandler={handleDownload} />
+
+	<a download="resume.pdf" target="_blank" href={Resume}>
+		<Button buttonText={"Download Resume"} />
+	</a>
 </div>
 
 <!-- </div> -->
