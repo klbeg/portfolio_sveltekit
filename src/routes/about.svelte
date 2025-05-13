@@ -7,41 +7,38 @@
 	const orange = colors.orange
 	const skills = [
 		"Angular",
+		"API Integration",
 		"AWS",
 		"Axios",
 		"Bootstrap",
 		"CSS",
-		"Enzyme",
 		"GitHub",
+		"Google Cloud Platform",
 		"HTML",
 		"JavaScript",
-		"Jest",
 		"TypeScript",
 		"Node.js",
 		"MongoDb",
 		"Mongoose",
-		"Parcel",
+		"Material UI",
+		"Python",
 		"React",
 		"Redux",
 		"Svelte",
 		"Tailwind"
 	]
-
-	function handleDownload() {
-		console.log("Resume Downloaded")
-	}
 </script>
 
 <!-- <div class="flex flex-col items-center"> -->
 <div class="pb-4 pt-2 mt-2">
-	<h1 class="text-orange text-2xl">About Me:</h1>
+	<h1 class="text-orange text-2xl">About:</h1>
 	<div class="content-container">
 		<p>
-			I’m a full stack developer with experience in the MERN stack, among other tools, and over a
-			decade in customer service. As a San Diego Music Awards nominated artist, I know the
-			dedication and tenacity it takes to excel and I”m bringing that same intensity to my
-			development career. I’m passionate about coding and pride myself in writing clean, reusable,
-			error free code to create unique client focused web applications.
+			A front end focused Software Engineer with 3 years of professional experience. An expert React
+			developer using both JavaScript and TypeScript who specializes solving complex problems with
+			well tested bug free code. Leverages communication skills refined over more than a decade in
+			customer facing roles to collaborate across teams in both technical and non-technical
+			capacities.
 		</p>
 	</div>
 </div>
