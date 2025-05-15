@@ -29,7 +29,6 @@
 	]
 </script>
 
-<!-- <div class="flex flex-col items-center"> -->
 <div class="pb-4 pt-2 mt-2">
 	<h1 class="text-orange text-2xl">About:</h1>
 	<div class="content-container">
@@ -37,7 +36,7 @@
 			A front end focused Software Engineer with 3 years of professional experience. An expert React
 			developer using both JavaScript and TypeScript who specializes solving complex problems with
 			well tested bug free code. Leverages communication skills refined over more than a decade in
-			customer facing roles to collaborate across teams in both technical and non-technical
+			customer oriented roles to collaborate across teams in both technical and non-technical
 			capacities.
 		</p>
 	</div>
@@ -57,7 +56,6 @@
 	</a>
 </div>
 
-<!-- </div> -->
 <style>
 	ul {
 		margin-left: 20px;
