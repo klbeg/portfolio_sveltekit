@@ -4,7 +4,6 @@
 	import { base } from "$app/paths"
 	let Resume = `${base}src/data/pdfs/resume.pdf`
 
-	const orange = colors.orange
 	const skills = [
 		"Angular",
 		"API Integration",
