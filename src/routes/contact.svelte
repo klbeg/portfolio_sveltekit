@@ -4,7 +4,7 @@
 </script>
 
 <div class="content-container">
-	<h1 class="text-2xl mb-10">Interested in <br /> Working Together?</h1>
+	<h1 class="text-2xl mb-10">Interested in Working Together?</h1>
 	<form action="https://formspree.io/f/xdoyjkro" method="POST" class="pt-2">
 		<label class="my-9 text-2xl" for="email">
 			Your email:
@@ -23,6 +23,7 @@
 	input {
 		border: 3px solid transparent;
 		width: 281px;
+		max-width: 100%;
 		color: var(--theme-purple);
 	}
 	textarea:focus,
