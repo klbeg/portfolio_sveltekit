@@ -1,15 +1,15 @@
 <script lang="ts">
-	import Link from "../Components/Link.svelte"
+	import Link from "./Link.svelte"
 	const href: string = "https://github.com/klbeg/myFlix-Angular-client"
 	export let project
 </script>
 
 <div class="content-container">
-	<img
+	<!-- <img
 		class="my-5 w-52 rounded-2xl"
 		src="https://klbeg.github.io/portfolio-website/img/MovieCraze-preview.jpg"
 		alt="Movie Craze logo. Orange text on a dark blue background."
-	/>
+	/> -->
 
 	<h1 class="text-orange text-2xl py-6 uppercase">
 		{project.title}
