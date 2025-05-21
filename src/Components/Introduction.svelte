@@ -1,7 +1,8 @@
 <div class="content-container">
 	<h2 class="text-3xl mb-10">Hi, I'm Kevin!</h2>
 	<p>
-		JavaScript full stack developer, musician, and witty team player seeking fulltime employment.
+		Front end focused Full Stack Engineer with a background in client services looking to create
+		value for your organization.
 	</p>
 	<div class="hidden md:flex pt-6">
 		<div class="break" />

@@ -1,6 +1,7 @@
 <script>
-	let gitIcon = 'src/data/images/github.png';
-	let linkedinIcon = 'src/data/images/linkedin.png';
+	import { base } from "$app/paths"
+	let gitIcon = `${base}src/data/images/github.png`
+	let linkedinIcon = `${base}/src/data/images/linkedin.png`
 </script>
 
 <footer class="py-12 flex flex-col items-center">

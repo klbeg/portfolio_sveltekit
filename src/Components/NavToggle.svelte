@@ -1,21 +1,21 @@
 <script lang="ts">
-	export let showNav;
-	export let toggleNav;
+	export let showNav
+	export let toggleNav
 
-	let hasBeenClicked: boolean = false;
+	let hasBeenClicked: boolean = false
 
 	function handleNavClick(): void {
-		if (hasBeenClicked) return;
+		if (hasBeenClicked) return
 
-		hasBeenClicked = true;
-		toggleNav();
+		hasBeenClicked = true
+		toggleNav()
 		setTimeout(() => {
-			hasBeenClicked = false;
-		}, 500);
+			hasBeenClicked = false
+		}, 500)
 	}
 </script>
 
-<button class={!showNav ? 'menu-btn' : 'menu-btn open'} on:click={handleNavClick}>
+<button class={!showNav ? "menu-btn" : "menu-btn open"} on:click={handleNavClick}>
 	<div class="menu-btn__burger" />
 </button>
 
@@ -43,7 +43,7 @@
 	}
 	.menu-btn__burger::before,
 	.menu-btn__burger::after {
-		content: '';
+		content: "";
 		position: absolute;
 		width: 50px;
 		height: 4px;

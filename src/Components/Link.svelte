@@ -1,7 +1,7 @@
 <script lang="ts">
-	export let href;
-	export let buttonText;
-	export let target;
+	export let href
+	export let buttonText
+	export let target: string = ""
 </script>
 
 <a {href} {target}>
@@ -12,7 +12,7 @@
 
 <style>
 	button {
-		width: 281px;
+		width: 216px;
 		transition: all 0.2s ease-in-out;
 		border: 1px solid transparent;
 	}
