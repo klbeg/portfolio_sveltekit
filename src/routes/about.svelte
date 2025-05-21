@@ -1,8 +1,6 @@
 <script context="module">
-	import { colors } from "../globalColors"
 	import Button from "../Components/Button.svelte"
-	import { base } from "$app/paths"
-	let Resume = `${base}src/data/pdfs/resume.pdf`
+	import Resume from "$lib/pdfs/resume.pdf"
 
 	const skills = [
 		"Angular",

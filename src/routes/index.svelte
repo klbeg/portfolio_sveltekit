@@ -1,7 +1,7 @@
 <script lang="ts">
 	import WorkPreview from "../Components/WorkPreview.svelte"
 	import Introduction from "../Components/Introduction.svelte"
-	import { portfolio } from "../data/case-studies/index"
+	import { portfolio } from "../lib/case-studies/index"
 
 	const projects = [portfolio]
 </script>
