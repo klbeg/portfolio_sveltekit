@@ -30,11 +30,10 @@
 	<h1 class="text-orange text-2xl">About:</h1>
 	<div class="content-container">
 		<p>
-			A front end focused Software Engineer with 3 years of professional experience. An expert React
-			developer using both JavaScript and TypeScript who specializes solving complex problems with
-			well tested bug free code. Leverages communication skills refined over more than a decade in
-			customer oriented roles to collaborate across teams in both technical and non-technical
-			capacities.
+			A front-end-focused Software Engineer with 3 years of professional experience. A skilled React
+			developer with expertise in both JavaScript and TypeScript. Specializes in solving complex
+			problems with well-tested, bug-free code. Utilizes over a decade of customer-oriented
+			experience to collaborate effectively across both technical and non-technical teams.
 		</p>
 	</div>
 </div>

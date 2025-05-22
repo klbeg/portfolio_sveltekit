@@ -4,7 +4,7 @@ const portfolio: CaseStudy = {
 	url: "portfolio",
 	title: "Portfolio - SvelteKit",
 	preview:
-		"A serverless SvelteKit app that serves as an introduction and contact point as well as somewhere to show off my work.",
+		"A serverless SvelteKit app that serves as an introduction and contact point, as well as a place to showcase my work.",
 	summary:
 		"A serverless TypeScript Application that uses Tailwind to streamline component styling.  It utilizes file based routing to inject descriptions into components resulting in minimal code for repetitive content.",
 	logo: "",
@@ -16,29 +16,29 @@ const portfolio: CaseStudy = {
 		{
 			step: "Learning SvelteKit",
 			text: [
-				"Svelte was a framework that I kept hearing about on web development podcasts and wanted to learn.  One of the biggest upsides that I heard was that it was intuitive and quick to pick up and quick to get going, which was the case in my experience.",
+				"SvelteKit was a framework that I kept hearing about on web development podcasts and wanted to learn.  One of the biggest upsides that I heard was that it was intuitive and quick to pick up and quick to get going, which was the case in my experience.",
 				"I quickly got used to having my HTML, CSS, and TypeScript all in the same file and enjoyed having component scoped CSS.  Routing was intuitive and easy to set up and I quickly had all my main routes set up and ready for content."
 			]
 		},
 		{
 			step: "Theming",
 			text: [
-				"One of the first issues I ran into was how to implement color theming.  In frameworks without component based CSS, I could declare a variable in styles.css and use them from wherever I wanted, but that approach wouldn't work here.",
-				"After a bit of searching online, I used the style attribute of the div wrapping the app and declared the variables there.  Once that was done I could freely use them in the style portion of my components."
+				"Creating CSS color variables presented an issue almost immediately.  Because I was declaring all of my global css classes in __layout.svelte, I wouldn't be able to use any color variables declared in that same file.  Since __layout.svelte was my root Svelte component I had to figure out where to declare my colors so I could use them here.",
+				"After some research, I found I could create the variables in the style attribute of the div wrapping my layout component.  This allowed me to declare the color variables in the same file I used them in."
 			]
 		},
 		{
 			step: "Advanced Routing",
 			text: [
-				"The other place I spent time problem solving was in finding the most efficient way to code my cast studies, this was where file based routing was really able to shine.",
-				"Utilizing SvelteKit's routing I was able to make new routes simply by creating a 3 line file for each project I wanted to add.  Simply import the data, the component and returning it."
+				"The other place I spent time problem solving was in finding the most efficient way to code my case studies, this was where file based routing was really able to shine.",
+				"With SvelteKit's routing, I could create new routes by simply adding a three-line file for each project.  This kept my code clean and concise."
 			]
 		},
 		{
 			step: "Conclusion",
 			text: [
-				"This project was an absolute blast and in it I found a new tool I enjoyed using.  SvelteKit was just as intuitive and quick to setup as I'd heard about in both podcasts and my research.",
-				"I loved how streamlined all my imports felt.  I only pulled in what I needed and didn't have a long list of the same imports in every file.  I also liked that there was really no overhead in my components.  Just write the code I needed to use.",
+				"This project was highly enjoyable and helped me learn one of my new favorite frameworks.  SvelteKit was just as intuitive and quick to setup as I'd heard about in both podcasts and my research.",
+				"Imports felt streamlined without the the repetition of other frameworks.  I only pulled in what I needed and didn't have a long list of the same imports in every file.  I also liked that there was really no overhead in my components.  Just write the code I needed to use.",
 				"This is definitely a framework I'll be using more moving forward in my personal projects."
 			]
 		}

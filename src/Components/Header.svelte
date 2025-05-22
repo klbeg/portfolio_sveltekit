@@ -13,7 +13,7 @@
 	<div class="flex flex-col items-center">
 		<h1>KEVIN BEGIN</h1>
 		<div class="break" />
-		<p class="font-extralight">Full Stack Web Developer</p>
+		<p class="font-extralight">Full Stack Engineer</p>
 	</div>
 	<NavToggle {showNav} {toggleNav} />
 	<NavBar {showNav} {toggleNav} />
