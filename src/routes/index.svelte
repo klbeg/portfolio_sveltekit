@@ -8,7 +8,7 @@
 
 <Introduction />
 <div class="content-container">
-	<h1 class="text-orange text-2xl md:text-white">My Work:</h1>
+	<h1 class="text-white text-2xl">My Work:</h1>
 
 	{#each projects as project}
 		<WorkPreview {project} />
