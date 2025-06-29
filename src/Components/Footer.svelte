@@ -27,4 +27,8 @@
 		background-color: #1d0036;
 		border: 1px solid white;
 	}
+	a img {
+		width: 75px;
+		height: 75px;
+	}
 </style>
